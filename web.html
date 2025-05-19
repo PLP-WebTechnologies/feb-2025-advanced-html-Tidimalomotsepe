@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedia Rich Webpage</title>
+  </head>
+  <body>
+    <!-- Page Header -->
+    <header>
+      <h1>Welcome to My Multimedia Webpage</h1>
+      <p>
+        Explore the use of audio, video, forms, tables, images, and lists using
+        HTML5.
+      </p>
+    </header>
+
+    <!-- Embedded Image -->
+    <section>
+      <h2>Beautiful Nature Image</h2>
+      <img
+        src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg"
+        alt="Nature from Pexels"
+        width="500"
+      />
+    </section>
+
+    <!-- Audio Element -->
+    <section>
+      <h2>Listen to Relaxing Music</h2>
+      <audio controls>
+        <source
+          src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+          type="audio/mpeg"
+        />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <!-- Video Element -->
+    <section>
+      <h2>Watch a Sample Video</h2>
+      <video width="500" controls>
+        <source
+          src="https://www.w3schools.com/html/mov_bbb.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Table -->
+    <section>
+      <h2>Contact Information</h2>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alice Green</td>
+            <td>123 Elm St</td>
+            <td>+123456789</td>
+            <td>alice@mail.com</td>
+          </tr>
+          <tr>
+            <td>Ben White</td>
+            <td>456 Pine Rd</td>
+            <td>+234567891</td>
+            <td>ben@mail.com</td>
+          </tr>
+          <tr>
+            <td>Carla Brown</td>
+            <td>789 Maple Ave</td>
+            <td>+345678912</td>
+            <td>carla@mail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- List -->
+    <section>
+      <h2>Things to Do</h2>
+      <ol type="I">
+        <li>Learn HTML</li>
+        <li>Practice JavaScript</li>
+        <li>Build Projects</li>
+      </ol>
+      <h3>Technologies to Explore</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ul>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+      <h2>Register Below</h2>
+      <form action="#" method="post">
+        <!-- Name -->
+        <label for="name">Full Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        /><br /><br />
+
+        <!-- Email -->
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="tidimalo@mail.com"
+          required
+        /><br /><br />
+
+        <!-- Password -->
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Create a password"
+          minlength="6"
+          required
+        /><br /><br />
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label><br />
+        <input type="date" id="dob" name="dob" required /><br /><br />
+
+        <!-- Gender -->
+        <label>Gender:</label><br />
+        <input type="radio" name="gender" id="male" value="Male" required />
+        <label for="male">Male</label><br />
+        <input type="radio" name="gender" id="female" value="Female" />
+        <label for="female">Female</label><br /><br />
+
+        <!-- Interests -->
+        <label>Interests:</label><br />
+        <input type="checkbox" name="interests" id="coding" value="Coding" />
+        <label for="coding">Coding</label><br />
+        <input type="checkbox" name="interests" id="design" value="Design" />
+        <label for="design">Design</label><br /><br />
+
+        <!-- Country -->
+        <label for="country">Country:</label><br />
+        <select id="country" name="country" required>
+          <option value="">--Choose--</option>
+          <option value="za">South Africa</option>
+          <option value="ng">Nigeria</option>
+          <option value="gh">Ghana</option>
+          <option value="us">USA</option></select
+        ><br /><br />
+
+        <!-- Submit -->
+        <input type="submit" value="Submit Registration" />
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Multimedia Webpage. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
